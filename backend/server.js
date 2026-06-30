@@ -83,7 +83,7 @@ app.post('/api/generate-script', upload.single('video'), async (req, res) => {
             mimeType: uploadResult.mimeType
           }
         },
-        { text: "Hãy xem video này và viết cho tôi một kịch bản thuyết minh chi tiết, khớp với thời gian diễn biến trong video để tôi lồng tiếng. Ngữ điệu tự nhiên, hấp dẫn. Ngôn ngữ: Tiếng Việt." }
+        { text: "Hãy xem video này và viết cho tôi một kịch bản thuyết minh chi tiết, khớp với thời gian diễn biến trong video để tôi lồng tiếng. Ngữ điệu tự nhiên, hấp dẫn. Ngoài ra, với mỗi phân cảnh, hãy cung cấp thêm gợi ý chi tiết về cách edit video (ví dụ: góc máy, phóng to, thu nhỏ, hiệu ứng chuyển cảnh) và các hiệu ứng âm thanh (sound effects), nhạc nền phù hợp nên chèn vào để video trở nên sinh động và lôi cuốn hơn. Trình bày dưới dạng cấu trúc rõ ràng theo từng mốc thời gian. Ngôn ngữ: Tiếng Việt." }
       ],
     });
 
